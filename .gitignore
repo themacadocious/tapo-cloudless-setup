@@ -1,0 +1,11 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Never commit these — they can contain real credentials / cloud tokens
+*.mitm
+*.pcap
+*.pcapng
+.env
+secrets*
